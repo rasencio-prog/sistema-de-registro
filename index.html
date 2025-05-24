@@ -3,9 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sistema de Registro de Juegos</title>
+    <title>Lista de Tareas</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p>Instructora</p>
+    <div class="container">
+        <h1>Lista de Tareas</h1>
+        <input type="text" id="taskInput" placeholder="Escribe una nueva tarea">
+        <button id="addTaskButton">Agregar Tarea</button>
+        <ul id="taskList">
+            <!-- Las tareas se agregarán aquí -->
+        </ul>
+    </div>
+    <script src="app.js" defer></script>
 </body>
 </html>
