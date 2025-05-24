@@ -1,0 +1,24 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "## Descripción Una sencilla aplicación de lista de tareas para llevar un registro de temas pendientes. Permite agregar, completar y eliminar tareas. Las tareas se guardan en el almacenamiento local del navegador para persistencia entre sesiones.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rasencio-prog/sistema-de-registro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rasencio-prog/sistema-de-registro/issues"
+  },
+  "homepage": "https://github.com/rasencio-prog/sistema-de-registro#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "sqlite3": "^5.1.7"
+  }
+}
